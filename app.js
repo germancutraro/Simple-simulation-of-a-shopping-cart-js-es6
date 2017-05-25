@@ -21,6 +21,6 @@ console.log(`Items of ${books.article}`);
 books.addItem('Metaphysics of Aristotle', 1);
 books.addItem('Plato', 2);
 books.addItem('Socrates', 1);
-books.addItem('Edison', 300);
+books.addItem('Edison', 1);
 books.removeItem('Edison');
 books.seeItems();
