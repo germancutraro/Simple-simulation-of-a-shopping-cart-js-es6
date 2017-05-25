@@ -10,14 +10,15 @@ class Cart {
     delete this.items[article];
   }
   seeItems () {
-    for(let k in this.items) {
+    for (let k in this.items) {
       console.log(`${k} | ${this.items[k]}`);
-    }
+    } // Close For
   }
-}
+} // End Class
 
 const books = new Cart('Philosophy Books');
 console.log(`Items of ${books.article}`);
+
 books.addItem('Metaphysics of Aristotle', 1);
 books.addItem('Plato', 2);
 books.addItem('Socrates', 1);
